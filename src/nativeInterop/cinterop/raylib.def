@@ -1,0 +1,10 @@
+headers = raylib.h
+headerFilter = raylib.h
+package = raylib
+staticLibraries = libraylib.a
+libraryPaths = /usr/local/lib
+compilerOpts.linux = -I/usr/include -I/usr/include/x86_64-linux-gnu -I/usr/local/include
+#linkerOpts.osx = -L/opt/local/lib -L/usr/local/opt/curl/lib -lraylib
+#linkerOpts.linux = /usr/local/lib/libraylib.so.3.5.0  /lib/x86_64-linux-gnu/libm.so.6  /lib/x86_64-linux-gnu/libc.so.6  /lib64/ld-linux-x86-64.so.2
+#linkerOpts.linux = -L/usr/local/lib
+#linkerOpts.mingw = -lraylib
